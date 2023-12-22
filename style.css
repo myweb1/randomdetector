@@ -1,0 +1,42 @@
+body {
+    background-image: url(Feli.webp);
+    background-size: cover;
+}
+
+.heading
+{
+  font-size: 23px;
+  width: 100%;
+  margin: 0px;
+  box-shadow:5px 10px 5px rgb(16, 156, 212)
+}
+
+.heading_div
+  {
+    float: none ; 
+    background: white ; 
+    padding: 10px; 
+    border-radius: 20px; 
+    color: black;
+    box-shadow:5px 5px 5px rgb(8, 229, 225);
+  }
+
+  .result_para_tag
+{
+  box-shadow:5px 5px 5px grey;
+  font-size: 20px;
+}
+.result_para_tag span
+{
+  white-space: pre-line;
+}
+
+.credit {
+    position: fixed ;
+    bottom:0;
+    left :40%;
+}
+
+canvas {
+  z-index: -10;
+}
